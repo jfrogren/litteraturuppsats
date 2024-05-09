@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.7)  9 MAY 2024 18:29
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.7)  10 MAY 2024 00:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -862,18 +862,14 @@ Package hyperref Info: Link coloring OFF on input line 73.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \langwohyphens=\language5
+
+Overfull \hbox (14.37001pt too wide) in paragraph at lines 109--117
+[]\TU/TeXGyrePagella(0)/m/n/10 Det är också denna självpåtagna superhjältekostym som så småningom 
+ []
+
 [1
 
 ]
-Overfull \hbox (2.88002pt too wide) in paragraph at lines 132--134
-[]\TU/TeXGyrePagella(0)/m/n/10 Det kommer sannolikt från hans uppfostran när det gäller ansvarsta- 
- []
-
-
-Overfull \hbox (1.13708pt too wide) in paragraph at lines 149--149
-|\TU/TeXGyrePagella(0)/m/it/10.95 På vilket sätt polioepidemins härjningar kolliderar med hans filosofi och
- []
-
 
 Package fontspec Info: 
 (fontspec)             Font family 'TeXGyrePagella(1)' created for font 'TeX
@@ -903,13 +899,8 @@ Package fontspec Info:
 (fontspec)             <->"TeX Gyre
 (fontspec)             Pagella/BI/OT:script=latn;language=dflt;letterspace=10;+smcp;mapping=tex-text;"
 
-[2] [3] [4] [5]
-Overfull \hbox (12.58356pt too wide) in paragraph at lines 363--363
-|\TU/TeXGyrePagella(0)/m/it/10.95 Vad vill Roth säga med sin roman? Går det att urskilja någon filosofi eller
- []
-
-[6]
-Overfull \hbox (6.73001pt too wide) in paragraph at lines 390--395
+[2]
+Overfull \hbox (6.73001pt too wide) in paragraph at lines 193--198
 []\TU/TeXGyrePagella(0)/m/n/10 Ja det är sant menar M, att detta koncepts “des maniacs de pourqoui” 
  []
 
@@ -918,7 +909,7 @@ Package bibentry Warning: You have used \nobibliography*
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-[7] (./litteraturuppsats.aux)
+[3] (./litteraturuppsats.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
@@ -927,12 +918,12 @@ Package rerunfilecheck Info: File `litteraturuppsats.out' has not changed.
 (rerunfilecheck)             Checksum: 318EEA35D2D898D442339E9D973C41DE;193.
  ) 
 Here is how much of TeX's memory you used:
- 16534 strings out of 476705
- 314147 string characters out of 5800334
- 1935403 words of memory out of 5000000
- 38307 multiletter control sequences out of 15000+600000
+ 16527 strings out of 476705
+ 313724 string characters out of 5800334
+ 1936403 words of memory out of 5000000
+ 38300 multiletter control sequences out of 15000+600000
  559128 words of font info for 74 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 114i,12n,138p,353b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,12n,138p,294b,497s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on litteraturuppsats.pdf (7 pages).
+Output written on litteraturuppsats.pdf (3 pages).
