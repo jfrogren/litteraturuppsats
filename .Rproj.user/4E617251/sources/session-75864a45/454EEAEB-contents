@@ -1,0 +1,85 @@
+---
+title: "Läkarbesök hos neurologen på Karolinska sjukhuset"
+runningheader: "Lakarbesok hos neurologen på Karolinska sjukhuset" 
+date: "2022-10-12"
+draft: false
+categories: [""]
+subtitle: ""
+author: "Lena Frögren"
+output:
+  pdf_document:
+    template: ../tufte-handout-local.tex
+    latex_engine: xelatex
+tufte::tufte_book:
+  citation_package: natbib
+  latex_engine: xelatex
+bibliography: skeleton.bib
+link-citations: no
+
+---
+
+
+```{r, include=FALSE}
+options(tinytex.verbose = TRUE)
+```
+---
+
+```{r setup, include=FALSE}
+library(tufte)
+# invalidate cache when the tufte version changes
+knitr::opts_chunk$set(cache.extra = packageVersion('tufte'))
+options(htmltools.dir.version = FALSE)
+```
+
+# Lenas allmäntillstånd och inplanerad rehab
+
+\newthought{Lenas neurolog, överläkare Mathias Sundgren,} inledde med att förklara att han läst anteckningarna från neurologsköterska Michaela Karlstedt från Lenas senaste besöket på Karolinska i somras, och ville inledningsvis få bekräftat vissa saker som konstaterats då.
+
+Främsta symptomet som Lena led av var det att stegen fryser, s.k. *freezings of gait* på engelska. Lena bekräftade att så var fallet men att hon också led av hjärntröttheten som hon upplevde förekom i dipparna när medicinen inte verkade.
+
+Lena kommer att inleda rehabprogram genom Olivia på Danderyds sjukhus 8 november och kommer att delta i träning totalt 25 ggr två gånger per vecka (tisdagar och torsdagar).
+
+Lena är också anmäld till att framöver delta i ett "high balance"-program på Karolinska Institutet, men det är oklart när det kommer att dra igång.
+
+Läkaren meddelade att balansträning är väldigt viktigt för Parkinson-patienter, att detta stöds av modern forskning och i det nya nationella riktlinjer för bra parkinsonvård som tagits fram så lyfts just betydelsen av balansträning fram mer än tidigare.
+
+# Medicinering
+
+Därefter diskuterades Lenas medicinintag. Hon berättade att hon hade största glappen i funktionsförmåga - då hon alltså led mest av frysningar - var på förmiddagen vid halv niotiden och framåt, samt på eftermiddagen vid 17-18. Det framkom också att även om Lena hade ordinerats medicinen *Betmiga* mot urinträngningar och *Requip* mot andra parkinsonsymptom, så var detta mediciner som hon inte tog eftersom hon inte hade märkt att de gjort särskilt stor skillnad. Läkaren betonade att dessa två mediciner inte har en omedelbar effekt utan en mer långverkande effekt och att det därför var viktigt att hon tog dem enligt ordination. Han tyckte att hon skulle ta Betmiga varje dag och testa det under en månad för att därefter utvärdera hur hon upplevde det. Ett symptom på låg dopaminnivå kan vara att man får urinträngningar. Han beskrev också Requip som en medicin som inte går att jämföra med Modipark utan att det mer är en medicin som lägger sig som en matta.  
+
+Lena berättade att hon ibland tar *Lergigan* för att kunna sova bättre men att hon samtidigt kände en viss oro för att ta den för mycket. Läkaren förklarade att Lergigan inte var något narkotikaklassat preparat utan en relativt snäll medicin och att hon inte behövde vara orolig för något beroende. Han förklarade vidare att sömnsvårigheter är väldigt vanliga vid Parkinson och att det är viktigt att försöka få bättre sömn, men att Lena själv får avgöra hur hon vill göra med denna medicin.
+
+På läkarens fråga om hur stor del av tiden som Lena upplever att hon mår ganska bra och inte lider så mycket av symptomen så svarade hon 50%.
+
+Läkaren föreslog att Lena skulle medicinera upp lite. Att den första dosen hon tar när hon vaknar ska vara 150 mg Modopark istället för 100 mg som hon tar i dag. Samt att dosen som hon tar runt kl. 16 också är 150 mg istället för nuvarande 100 mg. 
+
+# Remiss till tester av B-vitaminnivå och benskörhet
+
+När det kommer till remiss att ta olika prover för att testa så meddelade Lena att någon remiss för att ta blodprov inte nått fram till Ekerö vårdcentral^[Vid mötet med neurologsköterskan i somras utlovades remiss från KS till Ekerö vårdcentral om at ta blodprover för att dels undersöka B-vitaminnivå och dels undersöka risken för benskörhet. Anledningen till att mäta B-vitaminnivån var för att levodopa som är en substans i medicinen Modopark kan orsaka en lägre dos av B-vitamin som man då får komplettera med att ta B-vitamintabletter. Anledningen till att undersöka risken för benskörhet var med tanke på att Lena har ramlat och att det finns en risk för att hon får en allvarlig fallskada särskilt om hon lider av benskörhet.].
+
+Läkaren berättade att detta kan vara för att Ekerö vårdcentral de använder sig av ett annat administrativt system. Läkaren förklarade dock att det fanns ett drop-in-labb på Nya Karolinska Sjukhuset som Lena kunde gå till och ta blodprov för att kolla B-vitamin direkt i dag och att han skulle skriva in i systemet så att hon bara behövde uppge personnummer när hon kom dit så skulle de se vilket typ av blodprov det handlade om. Resultatet från detta blodprov kommer inom en dag till Kaolinska sjukhuset som i sin tur meddelar Lena. Vidare så skrev läkaren till Ekerö vårdcentarl igen för att se till att det görs en benskörhet-utredning, vilket utöver blodprov kan innebär t.ex. röntgen. 
+# Alternativa behandlingar 
+
+## Medicin med tre komponenter
+Lena meddelade att hon hört talas om andra parkinsonpatienter som istället för Modopark tar en medicin som innehåller tre olika komponenter och hon undrade om detta kunde vara något för henne? Läkaren berättade att det stämde och att denna medicin innehöll Comtess^[en så kallad COMT-hämmare som kan användas för att undvika höga doser levodopa och minska fluktuationer i dopaminhalterna]. Nackdelen med Comptess är dock att den hos 10-15% av de som tar den orsakar diaréer. Vidare förklarade läkaren att anledningen till att han inte tyckte att det var aktuellt för Lena med någon drastisk medicinförändring i dagsläget var för att hon stod inför att delta i ett omfattande rehabprogram och att hon därtill skulle höja doserna av Modopark under de största glapp som hon upplevde, och att han därför först vill utvärdera effekten av detta. 
+
+## Duo-dopa-pump
+Lena tog därefter upp pump som ett alternativ och Joakim förtydligade att han upplevde att Lena hade vissa svårigheter att komma ihåg att ta medicinen enligt ordination. Läkaren förklarade att pump var något han också hade haft i åtanke redan första gången han träffat henne med tanke på hur frekvent hon tar medicin och hur länge hon har haft sjukdomen. 
+
+## Så går det till att sätta in duo-dopa-pump 
+Han redogjorde därefter för hur ett sådant ingrepp går till. Det finns åtminstone två olika pumpar att sätta in där den en innehåller Comtess och där det således föreligger risk för diarréer. Föst sker en testfas då man sätter dit en sond i form av en tunn plastslang som går genom ena näsborren och som då har exakt samma effekt som om man satte dit en riktig pump men som utgör ett betydligt lindrigare ingrepp som är lättare att ta bort om det inte skulle uppnå önskad effekt. Vid ett sådan ingrepp tar man då inte längre Modopark oralt men har kvar Requip och tar Eldepryl.   
+
+Läkaren tyckte att det efter utvärdering av vad rehab har haft för effekt var läge för att eventuellt sätta in en duo-dopa-pump. Han beskrev att beslutet om pump fattas på det sättet att han presenterar Lenas "case" på det regelbundna möte som parkinsonläkare har var tredje vecka. Vid ett vanligt sådant möte presenteras och diskuteras cirka sex patienters situation och vilka åtgärder som bör sättas in för dessa så att en enskild läkare inte är ensam i sin bedömning. Om de då kommer fram till att det vore lämpligt att sätta in en pump, så kommer det gå till så att Lena först kommer att kallas till gastrolab för att få dit nässonden (den provisoriska pumpen). Utprovningen sker sen antingen i labbmiljö eller i hemmet. Om det sker i hemmet kommer man då få hjälp av en supportsjuksköterska som är med hela dagarna i början. Är det så att man på sikt tycker att det är svårt med igångsättandet och vissa moment i hanteringen kan man få förskrivet hemsjukvård så att sjukvårdspersonal kommer på morgonen och stöttar i dessa moment. Om man har sin utprovningsperiod i hemmet sker också regelbunden kontakt med läkare genom att supportsjuksköterskan har en surfplatta som man genomför videosamtal med läkare på. Supportsjuksköterskans stöd glesas sen successivt ut och sen får då patienten sköta den provisoriska pumpen själv. Prövoperioden med nässonden är vanligtvis 2-3 veckor (men kan sedan behålla den på upp till någon månad). Om det är så att man får diarréer så brukar det visa sig efter ett par veckor eller upp till en månad. Sen utvärderar man hur det har gått och fattar beslut om det är läge att sätta in en permanent pump. Om det fattas ett beslut om en permanent pump^[En annan benämning för detta är "PEG-lösning".] kommer det krävas en operation. Väntetid på operation är  2-3 månader. I väntan på operation kan man alltså behöva återgå till att ta medicinen oralt eftersom nässonden inte är en lösning som håller så mycket längre än en månad. Operationen kommer då att innebära att Lena får ett litet sår på magen som hon behöver torka och hålla efter i början tills det har läkt. Pumpen används inte nattetid utan innan hon lägger sig kommer hon att behöva rengöra den genom att spola den med ljummet vatten. Det går också att komplettera pumpen med tabletter också. 
+
+# Andra upplevda symptom
+
+Lena beskrev också att hon vid ett tillfälle upplevt stickningar i handen när hon vaknat på natten, och att detta hade hållit i sig i fyra timmar från det att hon vaknat. Läkaren sa att om detta var en engångsföreteelse så var det ingenting att oroa sig för, och att det kunde bero på en kombination av att. hon hade sovit på handen och att hon upplevde ett dosglapp. Han föreslog att hon skulle t aen Modopark också på natten när hon vaknade för att minska dosglappet. Detta skulle kunna leda till att Lena då upplever mer hallucinationer. Han frågade om hon besväras av detta idag, men hon sa då att hon inte gör det. Hon berättade att hon ibland tror sig se människor sitta i mörkret men att hon är medveten då om att det inte är så och därför ignorerar det.
+
+# Avslutningsvis
+
+När det kom till att förnya Lenas recept så berättade hon att hon har gott om Modopark, men läkaren lägger in en förlängd förskrivning på alla andra läkemedel.Läkaren informerade också Lena att eftersom hon tio år efter konstaterad Parkinson-diagnos inte uppvisar så mycket överrörlighet så är det också en indikator på att man  ligger lite på för låga doser när det gäller medicinintag. 
+
+Slutligen meddelade läkaren att han hoppas att de kan få till ett fysiskt möte i januari men om det inte gå så kommer det att bli ett telefonmöte. Oavsett vilket så kommer Lena att få en kallelse till detta framöver.
+\linebreak
+
+Antecknat av Joakim Frögren
