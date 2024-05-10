@@ -14,8 +14,8 @@ header-includes:
 tufte::tufte_book:
   citation_package: natbib
   latex_engine: xelatex
-bibliography: skeleton.bib
-link-citations: no
+bibliography: library.bib
+link-citations: true
 
 ---
 
@@ -32,10 +32,16 @@ knitr::opts_chunk$set(cache.extra = packageVersion('tufte'))
 options(htmltools.dir.version = FALSE)
 ```
 
+
 # Introduktion 
 
-Ett tema som saknats i kursens seminarieserie är litterära skildringar av epidemier.
-Jag har därför valt att analysera Nemesis, Philip Roths sista roman som utspelar sig under polioepidemin i USA på 1940-talet. Det är en roman som belyser en rad frågor om rädslans mekanismer och vilka som bär ansvar för en epidemis spridning och konsekvenser. Här finns tydliga paralleller till den pandemi som världen nyligen genomlevt. 
+\newthought{Ett tema som saknats i kursens seminarieserie} är litterära skildringar av epidemier.
+
+````{marginfigure} 
+
+![](nemesis.jpg)
+```` 
+Jag har därför valt att analysera Nemesis^[Roth, Philip (2010). _Nemesis_. London: Jonathan Cape. 280 sidor.], Philip Roths sista roman som utspelar sig under polioepidemin i USA på 1940-talet. Det är en roman som belyser en rad frågor om rädslans mekanismer och vilka som bär ansvar för en epidemis spridning och konsekvenser. Här finns tydliga paralleller till den pandemi som världen nyligen genomlevt. 
 
 Det jag kommer att fokusera på i min analys är hur två av romanens centralgestalter förhåller sig till den poliosjukdom som drabbar dem båda och vad deras förhållningssätt kan sägas representera eller annorlunda uttryckt vad Roth i gestaltandet av dessa två människoöden avser förmedla.  
 
@@ -54,26 +60,21 @@ Rationalitet - irrationalitet/ rädsla
 --> 
 
 # Analysdel
-<!--
-\newthought{Lenas neurolog, överläkare Mathias Sundgren,} 
-pump^[En annan benämning för detta är "PEG-lösning"]
--->
 
-Bucky Cantor har fostrats till en övertygelse om att man genom att ta sitt rättrådiga ansvar och arbeta hårt kan åstadkomma i princip vad som helst. Hängiven träning har också förvandlat honom, en föräldralös kille, från liten och spenslig till en extraordinär atlet. Men hans nedsatta syn har samtidigt diskvalificerat honom för en hjälteroll i andra världskriget och således bär han redan i bokens inledning på en skam för sina tillkortakommanden och för att han inte är där han borde vara. 
+Bucky Cantor har av sin råbarkade morfar fostrats till en övertygelse om att man genom att ta sitt rättrådiga ansvar och arbeta hårt kan åstadkomma i princip vad som helst. Hängiven träning har också förvandlat honom, en föräldralös kille, från liten och spenslig till en extraordinär atlet. Men hans nedsatta syn har samtidigt diskvalificerat honom för en hjälteroll i andra världskriget och således bär han redan i bokens inledning på en skam för sina tillkortakommanden och för att han inte är där han egentligen borde vara, där han är skapt för att vara. 
 
 Det är också denna självpåtagna superhjältekostym som så småningom kommer att börja krackelera och kasta in honom i en virvelvind av skuld. Utifrån hans synsätt ter sig nämligen polioepidemin som ett absolut oförståeligt fenomen, något ont som riktar sig emot alla och i synnerhet mot de mest oskyldiga: livsbejakande barn som älskas av sin omgivning. Eftersom livsfilosofin han fostras i säger att allt går att förklara och någon alltid måste bära ansvaret, placerar han först Gud på de anklagades bänk, och så småningom också sig själv (s. 265):
  
-> That the polio epidemic among the children of the Weequahic section and the children of Camp Indian Hill was a tragedy, he could not accept. He has to find a necessity for what happens. There is an epidemic and he needs a reason for it. He has to convert tragedy into guilt. He has to find a necessity for what happens. There is an epidemic and he needs reason for it. He has to ask why. Why? Why? That it is pointless, contingent, preposterous, and tragic will not satisfy him. That it is a proliferating virus will not satisfy him. Instead he looks desperately for a deeper cause, this martyr, this maniac of the why, and finds the why either in God or in himself or, mystically, mysteriously, in their dreadful joining together as the sole destroyer.
+> That the polio epidemic among the children of the Weequahic section and the children of Camp Indian Hill was a tragedy, he could not accept. He has to convert tragedy into guilt. He has to find a necessity for what happens. There is an epidemic and he needs reason for it. He has to ask why. Why? Why? That it is pointless, contingent, preposterous, and tragic will not satisfy him. That it is a proliferating virus will not satisfy him. Instead he looks desperately for a deeper cause, this martyr, this maniac of the why, and finds the why either in God or in himself or, mystically, mysteriously, in their dreadful joining together as the sole destroyer.
 
 När Bucky Cantor söker efter svar sluter han sig inåt, mot sig själv och sin egen gudstro, snarare än att med öppenhet och nyfikenhet rikta sina frågor till en expertis, eller söka tröst hos sina närmaste. Drygt 25 år senare är den forne instruktören blott en skugga av sitt forna jag, isolerad och ensam, inte främst utifrån sitt fysiska handikapp, utan snarare som en konsekvens av sin envetet självpåtagna skuld och dess konsekvenser.
 
-I mötet med Arnie Mesnikoff, en av pojkarna från idrottsplatsen i Newark, 25 år senare öppnar sig så den alternativa levnadshistorien såsom den också mycket väl hade kunnat te sig för Bucky Cantor. Trots att Arnie Mesnikoff även han har en kropp märkt av polio och genomlidit mörka perioder av självtvivel, framkommer att han i dag har ett ganska lyckat liv. Sedan arton år lever han med en kvinna som stöttat honom genom åren och med vilken han har barn. Han har utbildat sig till arkitekt och startat eget företag tillsammans en mekaniker som liksom honom haft polio under barndomen och de har specialiserat sig på tillgänglighetsåtgärder och hjälpmedel för att göra byggnader mer fysiskt tillgängliga. Sin relativa lycka menar han bottnar i en kombination av inre styrka och lyckliga omständigheter. När han i dag ser tillbaka på sitt liv gör han det med följande reflektion (s. 269):
+I mötet med Arnie Mesnikoff, en av pojkarna från idrottsplatsen i Newark, 25 år senare öppnar sig så den alternativa levnadshistorien såsom den också mycket väl hade kunnat te sig för Bucky Cantor. Trots att Arnie Mesnikoff även han har en kropp märkt av polio och genomlidit mörka perioder av självtvivel, framkommer att han i dag har ett ganska lyckligt liv. Sedan arton år lever han med en kvinna som stöttat honom genom åren och med vilken han har barn. Han har utbildat sig till arkitekt och startat eget företag tillsammans en mekaniker som liksom honom haft polio under barndomen och de har specialiserat sig på tillgänglighetsåtgärder och hjälpmedel för att göra byggnader mer fysiskt tillgängliga. Sin relativa lycka menar han bottnar i en kombination av inre styrka och lyckliga omständigheter. När han i dag ser tillbaka på sitt liv gör han det med följande reflektion (s. 269):
 
 > [S]lowly polio ceased to be the only drama, and I got weaned away from railing at my fate. I learned that back there in Weequahic in 1944 I'd lived through a summerlong social tragedy that didn't have to be a lifelong personal tragedy too. 
 
-Till skillnad från Bucky Cantor accepterar Arnie Mesnikoff att vi människor i viss mån är offer för olika omständigheter och ibland olyckliga sådana. En av lärdomarna från romanen och hjältens öde... att tro att genom seriositet och hårt arbete kan man uppnå precis allt det är falskt, hjälten eller narratören säger det nästan ordagrant i den andra delen av boken: 
-
-
+Till skillnad från Bucky Cantor accepterar Arnie Mesnikoff att vi människor i viss mån är offer för olika omständigheter och ibland olyckliga sådana. En av lärdomarna från romanen och protagonisten Bucky Cantors öde är att ett plikttyngt och enträget arbete inte nödvändigtvis leder till uppnådda mål utan att omständigheter och tragedier kan göra att vem som helst tappar fotfästet. Och att vägen tillbaka knappast är möjlig genom isolering utan möjliggörs först när man erkänner sina tillkortakommanden, sträcker ut en hand och är villig att ta emot andra människors stöttning och omsorg.
+ 
 
 M menar att hon tycker det är intressant med avslutningen och hon finner i den en koppling til titeln som hon finner mystisk. Nemesis väcker tankar om hämnd, men det väclker också tankar om "la distribution" eftersom det grekiska verbet "nemen" betyder sprida, dela och framför allt "rendre a chacun son dieu" och M fick intrycket av att läsa slutet på romanen att var och en av dessa personligheter som har sin syn på världen och sin syn på livet, slumpen, gud och smittan... tar emot var och en får eller tilldelas..att på något sätt i romanens slut sker en form av sanktion där var och en tilldelas det liv som det på något sätt försatt sig själva i... och därigenom att visa hur de har misstagit sig och de som misstagit sig mindre. 
 
