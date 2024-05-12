@@ -3,7 +3,7 @@
     "path": "~/Documents/litteraturkurs/litteraturuppsats/litteraturuppsats.Rmd",
     "project_path": "litteraturuppsats.Rmd",
     "type": "r_markdown",
-    "hash": "563379015",
+    "hash": "3935990949",
     "contents": "",
     "dirty": false,
     "created": 1715199763341.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "75,526",
-        "scrollLine": "62"
+        "cursorPosition": "49,52",
+        "scrollLine": "31"
     },
     "folds": "",
-    "lastKnownWriteTime": 1715299901,
+    "lastKnownWriteTime": 1715376206,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1715299901264,
+    "last_content_update": 1715376206171,
     "read_only": false,
     "read_only_alternatives": []
 }

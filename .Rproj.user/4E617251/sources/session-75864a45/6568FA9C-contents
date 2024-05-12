@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.3.15)  10 MAY 2024 02:11
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.3.15)  10 MAY 2024 23:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -900,6 +900,12 @@ Package hyperref Info: Link coloring OFF on input line 73.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \langwohyphens=\language89
+
+Overfull \hbox (12.7997pt too wide) in paragraph at lines 84--86
+\TU/TeXGyrePagella(0)/m/sc/10 E t t t e m a s o m s a k -n a t s \TU/TeXGyrePag
+ella(0)/m/n/10 i kursens seminarieserie är litterära skildringar 
+ []
+
 File: nemesis.jpg Graphic file (type bmp)
 <nemesis.jpg>
 LaTeX Font Info:    Trying to load font information for U+msa on input line 89.
@@ -917,12 +923,6 @@ LaTeX Warning: Marginpar on page 1 moved.
 
 
 LaTeX Warning: Marginpar on page 1 moved.
-
-
-Overfull \hbox (14.37001pt too wide) in paragraph at lines 115--123
-[]\TU/TeXGyrePagella(0)/m/n/10 Det är också denna självpåtagna superhjältekosty
-m som så småningom 
- []
 
 [1
 
@@ -963,32 +963,44 @@ apping=tex-text;"
 (fontspec)             Pagella/BI/OT:script=latn;language=dflt;letterspace=10;+
 smcp;mapping=tex-text;"
 
-[2]
-Overfull \hbox (6.73001pt too wide) in paragraph at lines 201--206
-[]\TU/TeXGyrePagella(0)/m/n/10 Ja det är sant menar M, att detta koncepts “des 
-maniacs de pourqoui” 
- []
+[2] [3]
+
+LaTeX Warning: Marginpar on page 4 moved.
+
+
+LaTeX Warning: Marginpar on page 4 moved.
+
+
+LaTeX Warning: Marginpar on page 4 moved.
+
+[4]
+
+LaTeX Warning: Marginpar on page 5 moved.
+
+[5]
+
+LaTeX Warning: Marginpar on page 6 moved.
 
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-[3] (./litteraturuppsats.aux)
+[6] (./litteraturuppsats.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `litteraturuppsats.out' has not changed.
-(rerunfilecheck)             Checksum: 318EEA35D2D898D442339E9D973C41DE;193.
+(rerunfilecheck)             Checksum: F20ED3E7BFEEB2CF8CB8F3136CF7F02F;543.
  ) 
 Here is how much of TeX's memory you used:
- 16721 strings out of 474773
- 316870 string characters out of 5757724
+ 16716 strings out of 474773
+ 316627 string characters out of 5757724
  1938839 words of memory out of 5000000
- 38522 multiletter control sequences out of 15000+600000
- 563975 words of font info for 100 fonts, out of 8000000 for 9000
+ 38519 multiletter control sequences out of 15000+600000
+ 563959 words of font info for 98 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,12n,138p,294b,493s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,12n,138p,299b,495s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on litteraturuppsats.pdf (3 pages).
+Output written on litteraturuppsats.pdf (6 pages).
